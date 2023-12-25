@@ -1,0 +1,10 @@
+{
+    "listeners": [
+        {
+            "protocol": "TCP",
+            "port": 80,
+            "destPort": 4444,
+            "idleTimeout": "350s"
+        }
+    ]
+}

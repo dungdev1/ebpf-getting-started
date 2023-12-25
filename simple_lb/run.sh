@@ -1,0 +1,1 @@
+go generate &&  go build && sudo ./simple-lb --aws-profile inspirelab-new --aws-scaling-group-name eks-itl-stg-node-group-120220829061148973600000010-aec1741d-228c-0361-5dad-8ab629703bde --listener-config-path /home/ec2-user/listener.conf.json --ifname enX0
